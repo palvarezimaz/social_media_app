@@ -1,8 +1,18 @@
 <h1>Tweeter</h1>
-<h2>Tweet is a click away!.... PROJECT LINK</h2>
-<a href="https://socialmediasweeter.herokuapp.com/">Click Here</a>
-<a href="https://sweetersocialmedia.herokuapp.com/">Click Here</a>
-<a href="https://tweetit-tweeter.herokuapp.com/">Click Here</a>
+<h2>Tweet is a click away!</h2>
+<p>Collaborators and Heroku links:</p>
+
+<a href=https://github.com/andrealazari>Andre Lazari</a><span> - </span>
+<a href="https://socialmediasweeter.herokuapp.com/">Click Here</a></br>
+<a href=https://github.com/palvarezimaz>
+Pablo Alvarez Imaz</a><span> - </span>
+<a href="https://sweetersocialmedia.herokuapp.com/">Click Here</a></br>
+<a href=https://github.com/rosalinb>
+Rosalin Biswal</a><span> - </span>
+<a href="https://tweetit-tweeter.herokuapp.com/">Click Here</a></br>
+<a href=https://github.com/Kenny-136>
+Kenny</a><span> - </span>
+<a href="https://kenny-tweeter-clone.herokuapp.com/">Click Here</a></br>
 
 <h2>Project Overview</h2>
 <p>"Tweeter" as the name shows is a attempt of cloning the popular "twitter" appication.
@@ -39,9 +49,8 @@
 
 <h2>Technical Stacks used:</h2>
 <ul>
-    <li>Node express</li>
+    <li>Node Express</li>
     <li>PostgreSQL</li>
-    <li></li>
 </ul>
 
 <h2>Skills learned:</h2>
