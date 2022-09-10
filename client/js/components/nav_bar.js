@@ -19,12 +19,9 @@
 const navBar = `
     <nav class="nav-bar">
       <ul>
-        <li  onClick="renderUserHomePage()"><span class="material-icons nav-icon">other_houses</span>Home</li>
-      
-        <li onClick="renderProfilePage()"><span class="material-icons nav-icon">person</span>Profile</li>
-
-        <li  onClick="renderPostPage()"><span class="material-icons nav-icon">sms</span>Tweet</li>
-
-        <li onclick="logOut()"><span class="material-icons nav-icon" >logout</span>Log out</li>
+        <li onClick="renderUserHomePage()"><span class="material-icons nav-icon">other_houses</span><span class="nav-text">Home</span></li>
+        <li onClick="renderProfilePage()"><span class="material-icons nav-icon">person</span><span class="nav-text">Profile</span></li>
+        <li  onClick="renderPostPage()"><span class="material-icons nav-icon">sms</span><span class="nav-text">Tweet</span></li>
+        <li onclick="logOut()"><span class="material-icons nav-icon" >logout</span><span class="nav-text">Log out</span></li>
     </ul>
     </nav>`;

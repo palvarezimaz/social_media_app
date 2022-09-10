@@ -23,37 +23,28 @@ function renderComments(event) {
 <div class="entry-page-wrapper user-page-wrapper">
     <div class= "user-page-details">
         ${navBar}
-        <section class='entry-page-container user-post-info' data-id='${
-          targetPost.id
-        }'>
+        <section class="comment-form post-new-tweets">
+        <section class='entry-page-container user-post-info' data-id='${targetPost.id}'>
             <header>
-                <img class="avatar-mini" src="${
-                  state.loggedInUserName.avatar
-                }" alt="User's avatar">
+                <img class="avatar-mini" src="${state.loggedInUserName.avatar}" alt="User's avatar">
                 <h2>${state.loggedInUserName.userName}</h2>
             </header>
             <p class="p-tweets">${targetPost.post}</p>
             <img src="${targetPost.attachment}">
-            <form onSubmit="likePost(event)">
+            
+            <form onSubmit="commentPost(event)">
                 <input name='post_id' value='${targetPost.id}' type='hidden'>
-                <div>
-                    <button class="like-button"><i class="fa fa-thumbs-up"></i></button>
-                </div>
+                <input name='comments' type='text'>
+                
+                
+                <button class="profile-delete-button">Add Comment!</button>
             </form>
-            <span>${numLikesForPost(state.posts.id)}</span>
+            </section>
         
             <section class="comment-section entry-page-container">
                 ${renderChildComment}
             </section>
-            <section class="comment-form">
-                <form onSubmit="commentPost(event)">
-                    <input name='post_id' value='${
-                      targetPost.id
-                    }' type='hidden'>
-                    <input name='comments' type='text'>
-                    <button class="profile-delete-button">Add Comment!</button>
-                </form>
-            </section>
+            
         </section>
     </div>
 </div>
