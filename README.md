@@ -31,10 +31,10 @@ Kenny</a><span> - </span>
     <li>Allows users to like other users tweets.</li>
     <li>Users can see number of likes in their posts.</li>
 </ul>
-<h3>Extensions ideas:</h3>
+<h3>Ideas still to be implemented</h3>
 <ul>
+    <li>Add a comment section. **IN PROGRESS**</li>
     <li>Add a share option, to share other users post.</li>
-    <li>Add a comment section.</li>
     <li>Add a search bar to allows users to search twwets based on some keywords.</li>
 </ul>
 
@@ -46,6 +46,16 @@ Kenny</a><span> - </span>
     <li>Diving the work plan by creating boards on trello and assign daily tasks.</li>
     <li>Startup discussing and a closure discussing featuring the tasks accompolised and debugged.</li>
 </ul>
+
+<h2>Instructions</h2>
+
+<h4>To install and deploy in production:</h4>
+
+1. Clone this repo
+2. Run `npm i` to install all the dependancies
+3. Create the database using the schema.sql file provided
+4. Create a express session secret key as an .env file to account for line 5 on sessions.js middleware
+5. Deploy to your favourite service.
 
 <h2>Technical Stacks used:</h2>
 <ul>

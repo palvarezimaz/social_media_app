@@ -30,6 +30,8 @@ function renderAppHome() {
                 <p class="login-alert">Already have an account?</p>
 
                 <button class="entrypage-button" onclick="renderLogin()"> <span>Login</span></button>
+                <p></p>
+                <button class="entrypage-button" onclick="renderDemo()"> <span>Demo</span></button>
             </ul>
         </div>
 
