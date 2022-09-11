@@ -2,7 +2,7 @@
 <h2>Tweet is just a click away!</h2>
 <p>Collaborators and demo links (app deployed in Heroku)</p>
 
-<a href=https://github.com/andrealazari>Andre Lazari</a><span> - </span>
+<a href=https://github.com/andrealazari>Andrea Lazari</a><span> - </span>
 <a href="https://socialmediasweeter.herokuapp.com/">Click Here</a></br>
 <a href=https://github.com/palvarezimaz>
 Pablo Alvarez Imaz</a><span> - </span>
