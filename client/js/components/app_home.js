@@ -1,5 +1,5 @@
 function renderAppHome() {
-  const page = document.querySelector("#page");
+  const page = document.querySelector('#page');
 
   page.innerHTML = `
   <div class="entry-page-wrapper">
@@ -19,7 +19,7 @@ function renderAppHome() {
        
         <p class="icon-heading entry-page"><span class="material-icons entry-page" >follow_the_signs</span>Follow your interests.</p>
 
-        <p class="icon-heading "><span class="material-icons entry-page" >handshake</span>Join the heard</p>
+        <p class="icon-heading "><span class="material-icons entry-page" >handshake</span>Join the herd</p>
 
         <p class="icon-heading"><span class="material-icons entry-page" >connect_without_contact</span>Hear what people are talking about</p>
 
@@ -30,6 +30,8 @@ function renderAppHome() {
                 <p class="login-alert">Already have an account?</p>
 
                 <button class="entrypage-button" onclick="renderLogin()"> <span>Login</span></button>
+                <p></p>
+                <button class="entrypage-button" onclick="renderDemo()"> <span>Demo</span></button>
             </ul>
         </div>
 

@@ -3,6 +3,7 @@
   border-radius: 10px;
   margin: 10px;
   background-color: black;
+  height: fit-content;
 }
 
 .nav-bar:hover {
@@ -36,14 +37,34 @@ div.entry-page-wrapper.user-page-wrapper {
 }
 
 @media screen and (max-width: 768px) {
+  .nav-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+  }
   .user-page-details {
-    flex-direction: column;
+    flex-direction: row;
   }
   .nav-bar ul {
-    padding: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    gap: 3vw;
+  }
+
+  .nav-text {
+    visibility: hidden;
+  }
+
+  .nav-bar li {
     display: flex;
     flex-direction: column;
-    gap: 3vw;
+    margin: 0;
+    align-items: center;
+    gap: 0px;
+    font-size: 15px;
   }
   .attachments-for-post {
     width: 200px;
